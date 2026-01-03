@@ -1,16 +1,17 @@
-## Hi there 👋
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/refs/heads/main/assets/header.png" width="100%" />
+</p>
 
-<!--
-**maya-fakih/maya-fakih** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/refs/heads/main/assets/avatar.png" width="120" style="border-radius: 50%;" />
+</p>
 
-Here are some ideas to get you started:
+<h3 align="center">low-level programming • algorithms • C</h3>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://img.shields.io/badge/C-6A0DAD?style=flat-square" />
+  <img src="https://img.shields.io/badge/Linux-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Git-4F46E5?style=flat-square" />
+</p>
+
+---
