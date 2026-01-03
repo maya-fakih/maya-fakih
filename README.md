@@ -9,6 +9,9 @@
   <img src="https://img.shields.io/badge/Linux-2563EB?style=flat-square" />
   <img src="https://img.shields.io/badge/Git-4F46E5?style=flat-square" />
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maya-fakih/github-contribution-grid-snake/output/snake.svg" />
+</p>
 
 ---
 
