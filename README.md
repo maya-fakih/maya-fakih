@@ -2,7 +2,7 @@
   <img
     src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/assets/header.png"
     width="100%"
-    style="height: 80px; object-fit: cover;"
+    style="height: 120px; object-fit: cover;"
   />
 </p>
 
