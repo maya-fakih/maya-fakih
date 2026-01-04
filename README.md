@@ -10,10 +10,11 @@
 
 <p align="center">
   <img
-    src="[https://raw.githubusercontent.com/maya-fakih/maya-fakih/output/github-contribution-grid-snake.svg](https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/github-contribution-grid-snake.svg)"
+    src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/github-contribution-grid-snake.svg"
     alt="contribution snake"
     style="border-radius:4px;"
   />
 </p>
+
 
 ---
