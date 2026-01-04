@@ -10,25 +10,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Checkout repo
       - uses: actions/checkout@v3
 
-      # Clean old SVGs
+      # 2️⃣ Clean old SVGs
       - name: Clean dist
         run: rm -rf dist
 
-      # Generate snake SVG
+      # 3️⃣ Generate contribution snake SVG
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: maya-fakih
           colors: |
-            snake:#800080
-            grid:#b0b0b0
-            contributions:#cce5ff,#66b2ff,#007bff,#0056b3
+            snake:#800080                     # purple snake
+            grid:#b0b0b0                      # grey grid
+            contributions:#cce5ff,#66b2ff,#007bff,#0056b3  # blue shades
           outputs: |
             dist/github-contribution-grid-snake.svg
 
-      # Correctly insert rectangle + purple-blue neon glow inside <svg>
-      - name: Add outline & neon inside SVG
+      # 4️⃣ Add outer rectangle + purple → blue neon glow inside <svg>
+      - name: Add outline & neon glow
         run: |
           awk '{
             print
@@ -40,7 +41,7 @@ jobs:
           }' dist/github-contribution-grid-snake.svg > dist/tmp.svg
           mv dist/tmp.svg dist/github-contribution-grid-snake.svg
 
-      # Push final SVG
+      # 5️⃣ Push final SVG to output branch (overwrites old)
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
@@ -48,3 +49,4 @@ jobs:
           force_orphan: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
