@@ -2,7 +2,7 @@
   <img
     src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/assets/header.png"
     width="100%"
-    style="max-height: 180px; object-fit: cover;"
+    style="max-height: 100px; object-fit: cover;"
   />
 </p>
 
@@ -12,6 +12,7 @@
   <img
     src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/output/github-contribution-grid-snake.svg"
     alt="contribution snake"
+    style="border-radius:4px;"
   />
 </p>
 
