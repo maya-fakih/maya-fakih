@@ -15,6 +15,11 @@ jobs:
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: maya-fakih
+          colors: |
+            snake:#800080              # purple snake body
+            head:#9b30ff               # slightly brighter purple head
+            grid:#cccccc               # grey grid
+            contributions:#cce5ff,#66b2ff,#007bff,#0056b3  # blue gradient
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
