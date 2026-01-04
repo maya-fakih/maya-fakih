@@ -5,28 +5,32 @@ permissions:
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Checkout repo
+      - uses: actions/checkout@v3
+
+      # Generate the snake SVG with purple snake, grey grid, blue contributions, head color
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: maya-fakih
           colors: |
-            snake:#800080              # purple snake body
-            head:#9b30ff               # slightly brighter purple head
-            grid:#cccccc               # grey grid
-            contributions:#cce5ff,#66b2ff,#007bff,#0056b3  # blue gradient
+            snake:#800080
+            head:#9b30ff
+            grid:#cccccc
+            contributions:#cce5ff,#66b2ff,#007bff,#0056b3
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # Push the generated SVG to 'output' branch, overwriting old files
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          force_orphan: true    # this ensures old SVG is replaced
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
