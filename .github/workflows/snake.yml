@@ -13,24 +13,28 @@ jobs:
       # Checkout repo
       - uses: actions/checkout@v3
 
-      # Generate the snake SVG with purple snake, grey grid, blue contributions, head color
+      # Generate the snake SVG
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: maya-fakih
           colors: |
-            snake:#800080
-            head:#9b30ff
-            grid:#cccccc
-            contributions:#cce5ff,#66b2ff,#007bff,#0056b3
+            snake:#800080                     # snake path / head color (purple)
+            grid:#b0b0b0                      # grey background
+            contributions:#cce5ff,#66b2ff,#007bff,#0056b3  # shades of blue
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Push the generated SVG to 'output' branch, overwriting old files
+      # Add large rectangle outline + neon shadow around the whole grid
+      - name: Add outline & shadow
+        run: |
+          sed -i '1i<defs><filter id="neon"><feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#7f00ff"/></filter></defs>' dist/github-contribution-grid-snake.svg
+          sed -i '2i<rect x="0" y="0" width="100%" height="100%" fill="none" stroke="#111111" stroke-width="2" filter="url(#neon)"/>' dist/github-contribution-grid-snake.svg
+
+      # Push the final SVG to 'output' branch
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          force_orphan: true    # this ensures old SVG is replaced
+          force_orphan: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
