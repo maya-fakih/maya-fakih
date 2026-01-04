@@ -46,6 +46,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          force_orphan: true
+          force_orphan: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
