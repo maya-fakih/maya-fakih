@@ -36,12 +36,17 @@ jobs:
           {
             print
             if($0 ~ /<svg / && !added){
-              print "<defs><filter id=\"neon\">"
-              print "<feDropShadow dx=\"0\" dy=\"0\" stdDeviation=\"4\" flood-color=\"#7f00ff\"/>"
-              print "<feDropShadow dx=\"0\" dy=\"0\" stdDeviation=\"4\" flood-color=\"#007bff\"/>"
-              print "</filter></defs>"
-              print "<rect x=\"0\" y=\"0\" width=\"100%\" height=\"100%\" fill=\"none\" stroke=\"#2e2e2e\" stroke-width=\"2\" filter=\"url(#neon)\"/>"
+              print "<defs>"
+              print "  <filter id=\"neon\">"
+              print "    <feDropShadow dx=\"0\" dy=\"0\" stdDeviation=\"4\" flood-color=\"#7f00ff\"/>"
+              print "    <feDropShadow dx=\"0\" dy=\"0\" stdDeviation=\"4\" flood-color=\"#007bff\"/>"
+              print "  </filter>"
+              print "</defs>"
+              print "<g filter=\"url(#neon)\">"
               added=1
+            }
+            if($0 ~ /<\/svg>/ && added){
+              print "</g>"
             }
           }' dist/github-contribution-grid-snake.svg > dist/tmp.svg
           mv dist/tmp.svg dist/github-contribution-grid-snake.svg
