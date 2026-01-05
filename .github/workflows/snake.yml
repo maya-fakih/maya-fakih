@@ -29,30 +29,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
 
-      # 4️⃣ Add neon glow safely
-      - name: Add outline & neon glow
-        run: |
-          awk 'BEGIN {added=0} 
-          {
-            print
-            if($0 ~ /<svg / && !added){
-              print "<defs>"
-              print "  <filter id=\"neon\">"
-              print "    <feDropShadow dx=\"0\" dy=\"0\" stdDeviation=\"4\" flood-color=\"#7f00ff\"/>"
-              print "    <feDropShadow dx=\"0\" dy=\"0\" stdDeviation=\"4\" flood-color=\"#007bff\"/>"
-              print "  </filter>"
-              print "</defs>"
-              print "<g filter=\"url(#neon)\">"
-              added=1
-            }
-            if($0 ~ /<\/svg>/ && added){
-              print "</g>"
-            }
-          }' dist/github-contribution-grid-snake.svg > dist/tmp.svg
-          mv dist/tmp.svg dist/github-contribution-grid-snake.svg
-
-
-      # 5️⃣ Commit & push to main safely (won't fail if nothing changed)
+      # 4️⃣ Commit & push to main safely (won't fail if nothing changed)
       - name: Push SVG to main
         run: |
           git config user.name "github-actions[bot]"
@@ -64,6 +41,5 @@ jobs:
             git push origin main
           else
             echo "No changes to commit, skipping push."
-          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
