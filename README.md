@@ -9,13 +9,7 @@
 <h3 align="center">low-level programming • algorithms • C</h3>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg"
-    alt="contribution snake"
-    style="border-radius:4px;"
-  />
-
+  ![contribution snake](https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg)
 </p>
-
 
 ---
