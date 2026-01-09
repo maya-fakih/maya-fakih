@@ -5,29 +5,36 @@
 <h2 align="center"> Think it. Design it. Make it. </h2>
 
 <p align="center">
-  <img src="assets/animations/drawing.gif" width="35" style="margin: 0 10px;" />
-  <img src="assets/animations/code.gif" width="35" style="margin: 0 10px;" />
-  <img src="assets/animations/robot.gif" width="35" style="margin: 0 10px;" />
-  <img src="assets/animations/piano.gif" width="35" style="margin: 0 10px;" />
+  <img src="assets/animations/robot.gif" width="40" />
 </p>
 
 ---
 
-### /* The Logic */
+### The Logic
 > I try to build systems as beautiful as old architecture.
 > Currently locking in at 42, working with C and Python.
 
-### /* Essentials */
-> Simple, scalable, and coordinated. 
+<p align="left">
+  <img src="assets/animations/code.gif" width="40" />
+</p>
+
+### Essentials
+> Simple, scalable, and coordinated.
 > Every detail exists for a reason.
 
 ---
 
-### // The Grid
-<p align="center">
-  <img src="dist/github-contribution-grid-snake.svg" width="100%" />
+### Vibe Check
+> Calm, music, and the little things.
+
+<p align="left">
+  <img src="assets/animations/drawing.gif" width="40" style="margin-right: 10px;" />
+  <img src="assets/animations/music.gif" width="40" />
 </p>
 
+---
+
+### Progress
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=maya-fakih&color=8A2BE2&style=flat-square&label=VIEWS" />
+  <img src="dist/github-contribution-grid-snake.svg" width="100%" />
 </p>
