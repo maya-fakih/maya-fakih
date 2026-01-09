@@ -5,7 +5,7 @@
 <h2 align="center"> Think it. Design it. Make it. </h2>
 
 <p align="center">
-  <img src="assets/animations/robot.gif" width="40" />
+  <img src="assets/animations/robot.gif" width="50%" />
 </p>
 
 ---
@@ -15,7 +15,7 @@
 > Currently locking in at 42, working with C and Python.
 
 <p align="center">
-  <img src="assets/animations/code.gif" width="40" />
+  <img src="assets/animations/code.gif" width="50%" />
 </p>
 
 ---
@@ -25,7 +25,7 @@
 > Every detail exists for a reason.
 
 <p align="center">
-  <img src="assets/animations/drawing.gif" width="100%" style="margin-right: 10px;" />
+  <img src="assets/animations/drawing.gif" width="50%" style="margin-right: 10px;" />
 </p>
 
 ---
@@ -34,7 +34,7 @@
 > Calm, music, and the little things.
 
 <p align="center">
-  <img src="assets/animations/music.gif" width="100%" />
+  <img src="assets/animations/music.gif" width="50%" />
 </p>
 
 ---
