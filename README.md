@@ -1,14 +1,33 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/assets/header.png" width="100%" style="height: 160px; object-fit: cover;" />
+  <img src="assets/header.png" width="100%" style="border-radius: 10px;" />
 </p>
 
 <h2 align="center"> Think it. Design it. Make it. </h2>
 
-<br/>
+<p align="center">
+  <img src="assets/animations/drawing.gif" width="35" style="margin: 0 10px;" />
+  <img src="assets/animations/code.gif" width="35" style="margin: 0 10px;" />
+  <img src="assets/animations/robot.gif" width="35" style="margin: 0 10px;" />
+  <img src="assets/animations/piano.gif" width="35" style="margin: 0 10px;" />
+</p>
+
+---
+
+### /* The Logic */
+> I try to build systems as beautiful as old architecture.
+> Currently locking in at 42, working with C and Python.
+
+### /* Essentials */
+> Simple, scalable, and coordinated. 
+> Every detail exists for a reason.
+
+---
+
+### // The Grid
+<p align="center">
+  <img src="dist/github-contribution-grid-snake.svg" width="100%" />
+</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg" 
-       alt="contribution snake" 
-       style="background: #0d1117; border-radius: 20px; box-shadow: 0 0 25px rgba(59, 130, 246, 0.6); padding: 25px;" 
-       width="100%" />
+  <img src="https://komarev.com/ghpvc/?username=maya-fakih&color=8A2BE2&style=flat-square&label=VIEWS" />
 </p>
