@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Generate snake SVG
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: maya-fakih
           outputs: |
@@ -30,6 +30,6 @@ jobs:
           mkdir -p dist
           git add dist/*.svg
           if ! git diff --cached --quiet; then
-            git commit -m "Update snake"
+            git commit -m "Update snake with grid labels"
             git push origin main
           fi
