@@ -4,42 +4,32 @@ permissions:
   contents: write
 
 on:
+  schedule:
+    - cron: "0 0 * * *" 
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Checkout repo
       - uses: actions/checkout@v3
 
-      # 2️⃣ Clean dist
-      - name: Clean dist
-        run: rm -rf dist
-
-      # 3️⃣ Generate snake SVG
-      - uses: Platane/snk/svg-only@v3
+      - name: Generate snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: maya-fakih
-          colors: |
-            snake:#800080
-            head:#9b30ff
-            grid:#b0b0b0
-            contributions:#cce5ff,#66b2ff,#007bff,#0056b3
           outputs: |
-            dist/github-contribution-grid-snake.svg
-
-      # 4️⃣ Commit & push to main safely (won't fail if nothing changed)
+            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#8A2BE2&color_dots=#161b22,#3b82f6,#6366f1,#8b5cf6,#a855f7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Push SVG to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/github-contribution-grid-snake.svg
-          # Commit only if changes exist
+          mkdir -p dist
+          git add dist/*.svg
           if ! git diff --cached --quiet; then
-            git commit -m "Update contribution snake SVG"
+            git commit -m "Update snake"
             git push origin main
-          else
-            echo "No changes to commit, skipping push."
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          fi
