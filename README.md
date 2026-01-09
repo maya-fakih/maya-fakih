@@ -7,5 +7,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg" alt="contribution snake" width="100%" />
+  <div align="center" style="display: inline-block; padding: 10px; border-radius: 10px; box-shadow: 0 0 20px rgba(59, 130, 246, 0.5); background: #0d1117;">
+    <img src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg" alt="contribution snake" width="100%" />
+  </div>
 </p>
