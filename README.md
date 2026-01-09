@@ -1,83 +1,36 @@
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/assets/header.png"
-    width="100%"
-    style="height: 160px; object-fit: cover;"
-  />
+  <img src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/assets/header.png" width="100%" style="height: 160px; object-fit: cover; border-radius: 10px;" />
 </p>
 
-<h3 align="center" style="color:#8A2BE2;">low-level programming • algorithms • C</h3>
+<h2 align="center"> Breaking logic into binaries. </h2>
+<p align="center"> 
+  <code>Low-level</code> • <code>Algorithms</code> • <code>C</code> 
+</p>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg"
-    alt="contribution snake"
-    style="border-radius: 4px; filter: drop-shadow(0 0 8px #8A2BE2);"
-  />
+  Building high-performance systems and making sense of the memory. Most of my time is spent debugging segfaults and optimizing complexity. If it isn't efficient, it isn't finished.
 </p>
 
 ---
 
-## 🎨 Hobbies & Interests
-
+### 🛠 Tech & Tools
 <p align="center">
-  <span style="display:inline-block; margin:10px;">
-    <img src="https://raw.githubusercontent.com/maya-fakih/assets/main/icons/music-note.gif" width="50" />
-    <br><sub>Music</sub>
-  </span>
-  <span style="display:inline-block; margin:10px;">
-    <img src="https://raw.githubusercontent.com/maya-fakih/assets/main/icons/robot-arm.gif" width="50" />
-    <br><sub>Robotics</sub>
-  </span>
-  <span style="display:inline-block; margin:10px;">
-    <img src="https://raw.githubusercontent.com/maya-fakih/assets/main/icons/architecture.gif" width="50" />
-    <br><sub>Architecture</sub>
-  </span>
-  <span style="display:inline-block; margin:10px;">
-    <img src="https://raw.githubusercontent.com/maya-fakih/assets/main/icons/drawing.gif" width="50" />
-    <br><sub>Drawing</sub>
-  </span>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
 
-## 💻 Skills & Tech
-
 <p align="center">
-  <span style="display:inline-block; margin:10px; transform: rotate(-10deg);">
-    <img src="https://raw.githubusercontent.com/maya-fakih/assets/main/icons/c.png" width="50" />
-    <br><sub>C</sub>
-  </span>
-  <span style="display:inline-block; margin:10px; transform: rotate(8deg);">
-    <img src="https://raw.githubusercontent.com/maya-fakih/assets/main/icons/python.png" width="50" />
-    <br><sub>Python</sub>
-  </span>
-  <span style="display:inline-block; margin:10px; transform: rotate(-5deg);">
-    <img src="https://raw.githubusercontent.com/maya-fakih/assets/main/icons/matplotlib.png" width="50" />
-    <br><sub>Matplotlib</sub>
-  </span>
-  <span style="display:inline-block; margin:10px; transform: rotate(6deg);">
-    <img src="https://raw.githubusercontent.com/maya-fakih/assets/main/icons/numpy.png" width="50" />
-    <br><sub>NumPy</sub>
-  </span>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg" width="100%">
+  </picture>
 </p>
 
----
-
-## 🔮 Fun Interactive Grid
-
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/maya-fakih/maya-fakih/main/dist/github-contribution-grid-snake.svg"
-    alt="contribution snake"
-    style="border-radius:4px; filter: drop-shadow(0 0 10px #8A2BE2);"
-  />
-</p>
-
-<sub>Hover over the contributions to see your progress — and watch the purple snake move!</sub>
-
----
-
-<p align="center" style="color:#8A2BE2;">
-  Made with ❤️ by Maya • Inspired by robotics, music, architecture & art
+  <img src="https://komarev.com/ghpvc/?username=maya-fakih&color=8A2BE2&style=flat-square&label=PROFILE+VIEWS" alt="maya-fakih" />
 </p>
