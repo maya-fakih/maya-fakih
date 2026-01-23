@@ -4,18 +4,12 @@
 
 <h2 align="center"> Think it. Design it. Make it. </h2>
 
-<p align="center">
-  <img src="assets/animations/robot.gif" width="40%" />
-</p>
-
----
-
 ### The Logic
-> I try to build systems as beautiful as old architecture.
+> I try to build beutiful systems.
 > Currently locking in at 42, working with C and Python.
 
 <p align="center">
-  <img src="assets/animations/code.gif" width="40%" />
+  <img src="assets/animations/code.gif" width="20%" />
 </p>
 
 ---
@@ -24,17 +18,13 @@
 > Simple, scalable, and coordinated.
 > Every detail exists for a reason.
 
-<p align="center">
-  <img src="assets/animations/drawing.gif" width="40%" style="margin-right: 10px;" />
-</p>
-
 ---
 
 ### Vibe Check
 > Calm, music, and the little things.
 
 <p align="center">
-  <img src="assets/animations/music.gif" width="40%" />
+  <img src="assets/animations/music.gif" width="20%" />
 </p>
 
 ---
