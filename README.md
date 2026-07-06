@@ -6,7 +6,8 @@
 
 ### The Logic
 > I try to build beautiful systems. <br>
-> Currently locking in at 42, working with C and Python.
+> Currently locking in at 42 and Inmind<br>
+>c - cpp - python - sql - php
 
 <p align="center">
   <img src="assets/animations/code.gif" width="30%" />
