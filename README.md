@@ -4,23 +4,20 @@
 
 <h2 align="center"> Think it. Design it. Make it. </h2>
 
-### The Logic
 > I try to build beautiful systems. <br>
-> Currently locking in at 42 and Inmind<br>
->c - cpp - python - sql - php
+> Masters student in Theory of Computation @AUB <br>
+> Mechatronics engineering graduate @UOB. <br>
+> Currently locking in at 42 and AUB<br>
+> Working through... <br>
+>c - cpp - python
 
 <p align="center">
   <img src="assets/animations/code.gif" width="30%" />
 </p>
 ---
 
-### Essentials
-> Simple, scalable, and coordinated.
-> Every detail exists for a reason.
----
-
 ### Vibe Check
-> Calm, music, and the little things.
+> Music, and the little things.
 
 <p align="center">
   <img src="assets/animations/music.gif" width="30%" />
